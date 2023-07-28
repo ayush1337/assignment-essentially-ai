@@ -1,0 +1,89 @@
+.ant-form-item-control-input-content {
+    display: flex;
+    gap: 1rem;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-form-item
+    .ant-form-item-label
+    > label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-gej357).ant-form-item
+    .ant-form-item-label
+    > label.ant-form-item-required:not(
+        .ant-form-item-required-mark-optional
+    )::before {
+    color: #9e9e9e;
+    font-size: 12px;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-input:hover {
+    border-color: #1552f0;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-btn {
+    border-radius: 999px;
+    font-weight: bold;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-btn-primary:not(:disabled):not(
+        .ant-btn-disabled
+    ):hover {
+    background-color: #2965fa;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-btn-primary {
+    background-color: #1552f0;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-picker:hover,
+:where(.css-dev-only-do-not-override-gej357).ant-picker-focused {
+    border-color: #1552f0;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-btn-default:not(:disabled):not(
+        .ant-btn-disabled
+    ):hover {
+    color: #1552f0;
+    border-color: #1552f0;
+}
+:where(.css-dev-only-do-not-override-gej357).ant-input,
+:where(.css-dev-only-do-not-override-gej357).ant-picker {
+    border-radius: 999px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #cecece;
+}
+.user__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    min-height: 100dvh;
+    padding: 10rem;
+}
+.user__input-head {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.user__input-img {
+    width: 10rem;
+}
+.user__input-img img {
+    width: 100%;
+}
+.user__input-head-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.user__input-head-info h1 {
+    font-size: 4rem;
+}
+.user__input-head-info p {
+    font-size: 1.6rem;
+    color: #9e9e9e;
+    display: flex;
+    gap: 0.5rem;
+}
+.user__input-head-info p a {
+    border-bottom: 1px solid #9e9e9e;
+}

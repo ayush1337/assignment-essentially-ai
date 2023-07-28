@@ -1,0 +1,145 @@
+.header {
+    background: rgb(1, 16, 130);
+    background: linear-gradient(
+        332deg,
+        rgba(1, 16, 130, 1) 0%,
+        rgba(1, 23, 193, 1) 100%
+    );
+    padding: 5rem;
+
+    min-height: 100dvh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-info h1 {
+    font-size: 7vw;
+}
+.header-info p {
+    font-size: 3vw;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.header__buttons {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.header-info button,
+.header-info a {
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    font-weight: bold;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #1552f0;
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: #1552f0;
+}
+.btn-blue {
+    background-color: #1552f0;
+    color: #fff;
+}
+.btn-blue:hover {
+    color: #1552f0;
+    background-color: #fff;
+}
+.header-img {
+    display: none;
+}
+
+.phone,
+.pads {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 50%);
+    width: 60rem;
+}
+.cursor {
+    position: absolute;
+    z-index: 3;
+    width: 10rem;
+    top: 0;
+    right: 0;
+    transform: translate(-400%, 500%);
+}
+.stock_up_b {
+    position: absolute;
+    z-index: 3;
+    width: 10rem;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 450%);
+}
+.stock_up_y {
+    position: absolute;
+    z-index: 3;
+    width: 10rem;
+    top: 0;
+    right: 0;
+    transform: translate(-450%, 450%);
+}
+.phone {
+    z-index: 2;
+}
+.pads {
+    z-index: 1;
+}
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+    .header {
+        flex-direction: row;
+        padding: 5rem;
+        border-radius: 20px;
+    }
+    .header-info {
+        width: 50%;
+    }
+    .header-info h1 {
+        font-size: 4vw;
+    }
+    .header-info p {
+        font-size: 1.2vw;
+    }
+
+    .header__buttons {
+        flex-direction: row;
+        font-size: 0.8vw;
+    }
+    /* .phone,
+    .pads {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0, 25%);
+    } */
+}
+
+@media screen and (min-width: 1000px) {
+    .header-img {
+        width: 50%;
+        display: inline-block;
+    }
+}
